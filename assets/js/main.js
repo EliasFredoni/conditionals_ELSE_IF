@@ -22,3 +22,38 @@ let checkAirQuality = () => {
         document.body.style.backgroundColor = "orange";
     }
 }
+
+/*-----------LEV 2.3-------------*/
+
+let difference = (banana) => {
+    let palmas = banana - 27;
+    if (banana > 27) {
+        return palmas * 2;
+    }
+    else {
+        return palmas;
+    }
+}
+
+console.log(difference(35));
+console.log(difference(74));
+console.log(difference(123));
+
+/*------------LEV 2.4------------*/
+
+let summe = (zahl1, zahl2) => {
+    if (zahl1 != zahl2) {
+        zahl1 + zahl2;
+        console.log(zahl1 + zahl2);
+    }
+    else if (zahl1 === zahl2) {
+        (zahl1 + zahl2) * 5;
+        console.log((zahl1 + zahl2) * 5);
+    }
+}
+
+summe(15, 16);
+summe(15, 15)
+
+
+
